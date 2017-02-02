@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Login</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <br><br><title>Weather Report</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+
+    <script type="text/javascript">
+        function mapPage() {
+            window.location="map.html"
+        }
+    </script>
+</head>
+<body class="intro">
+<!--login modal-->
+<div class="intro-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2">
+                <h1 class="custom-m1">The Weather Channel</h1>
+            </div>
+            <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content login-container">
+                        <div class="modal-header custom-modal-header">
+                            <h2 class="text-center custom-m2">Login</h2>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form col-md-12 center-block" id="loginDetails">
+                                <div class="form-group">
+                                    <input type="text" class="form-control input-lg" placeholder="Email" ng-model="mail">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" id="password" class="form-control input-lg" placeholder="Password">
+                                </div>
+                                <div class="form-group">
+                                    <input class="btn btn-primary btn-lg btn-block btn" type="button" onclick="mapPage()" value="Sign In"/>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <div class="col-md-12">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- script references -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

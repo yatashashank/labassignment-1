@@ -1,0 +1,120 @@
+.modal-footer {
+    border-top: 0px;
+}
+
+.mapElement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+​ .custom-m1 {
+    margin-top: 20px;
+}
+
+.custom-modal-header {
+    padding-top: 6%;
+    padding-bottom: 0px;
+    border: none;
+}
+
+.custom-m2 {
+    margin-bottom: 2%;
+}
+
+.login-container {
+    margin-top: 30%;
+}
+
+.get-directions-btn {
+    position: relative;
+    display: block;
+    margin: 30px auto;
+    padding: 0;
+    overflow: hidden;
+    border-width: 0;
+    outline: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    background-color: #2ecc71;
+    color: #ecf0f1;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.get-directions-btn:hover,
+.get-directions-btn:focus {
+    background-color: #27ae60;
+}
+
+.get-directions-btn > * {
+    position: relative;
+}
+
+.get-directions-btn span {
+    display: block;
+}
+
+.get-directions-btn:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 0;
+    padding-top: 0;
+    border-radius: 100%;
+    background-color: rgba(236, 240, 241, .3);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.get-directions-btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+
+/* Styles, not important */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+.get-directions-btn.orange {
+    background-color: #e67e22;
+}
+
+.get-directions-btn.orange:hover,
+.get-directions-btn.orange:focus {
+    background-color: #d35400;
+}
+
+.get-directions-btn.red {
+    background-color: #e74c3c;
+}
+
+.get-directions-btn.red:hover,
+.get-directions-btn.red:focus {
+    background-color: #c0392b;
+}
+.full-dimensions {
+    width: 100%;
+    height: 100%;
+}
