@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> mashup  Lab3</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+
+    <link rel="stylesheet" href="https://www.gstatic.com/knowledge/kgsearch/widget/1.0/widget.min.css">
+
+    <script src="https://www.gstatic.com/knowledge/kgsearch/widget/1.0/widget.min.js"></script>
+    <style>
+        .menu input{
+            background-color: transparent;
+            border-top: 1px solid #c0c0c0;
+            border: 1px solid #09163c;
+            box-sizing: border-box;
+            color: #1a0505;
+            display: inline-block;
+            font-size: 16px;
+            height: 35px;
+            line-height: 30px;
+            padding-left: 8px;
+            vertical-align: top;
+            width: 250px;
+        }
+        .menu button{
+        }
+        button {
+        }
+        table {
+            max-width: 960px;
+            margin: 10px auto;
+            border: 1px solid #FFF;
+        }
+        caption {
+            font-size: 1.6em;
+            font-weight: 400;
+            padding: 10px 0;
+        }
+        thead th {
+            font-weight: 400;
+            background: #8a97a0;
+            color: #FFF;
+        }
+        tr {
+            background: #f4f7f8;
+            border: 1px solid #FFF;
+            margin-bottom: 5px;
+        }
+        tr:nth-child(even) {
+            background: #e8eeef;
+        }
+        th, td {
+            text-align: left;
+            padding: 20px;
+            font-weight: 300;
+        }
+        tfoot tr {
+            background: none;
+        }
+        tfoot td {
+            padding: 10px 2px;
+            font-size: 0.8em;
+            font-style: italic;
+            color: #8a97a0;
+        }
+        .kge-search-picker {
+            width: 20px;
+        }
+    </style>
+
+</head>
+<body class="body" background="welcome-1254x836.jpg">
+
+
+<div  ng-controller="View1Ctrl" style="top: 200px">
+    <div class="menu" id="div_SearchContainer">
+        <h1 align="absolute..." style="color: #130d46; text-align: center; font-size: 40px " > Welcome to Search </h1>
+        <input type="text" id="txt_placeName" placeholder=" Enter Place" style="margin-left: 100px"/><br/><br/>
+        <input type="text" id="txt_searchFilter" placeholder=" Enter food item" style="margin-left: 100px"/><br/><br/>
+        <div class="kge-search-picker">
+            <div class="kge-search-picker-inner">
+                <div class="kge-search-picker-header"></div>
+                <div class="kge-search-picker-list jfkScrollable" style="width: 100%;">
+                    <div class="kge-search-picker-list-inner jfkScrollable-inner"></div></div>
+                <div class="kge-search-picker-footer" style="display: none;"><a href="javascript:void(0);"></a></div></div></div>
+        <button id="btn_getRestaurant" style="margin-left: 150px" ng-click="getVenues()">Search</button>
+    </div>
+    <div id="div_VenueList">
+
+        <ul>
+            <li ng-repeat="venue in venueList" style="font-size: x-large; color: #5e5e5e; list-style: none; list-style-position:inside;">
+                {{venue.name}}
+                <button id="btn_getMenu" ng-click="getMenu(venue)">Get Menu</button>
+                <button id="btn_getReview" ng-click="getReviews(venue)">Get Review</button><br/>
+            </li>
+        </ul>
+
+    </div>
+    <div id="div_Menu" style="display:none;"  >
+
+
+        <p ng-model="MenuList">
+
+        <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style=" aliceblue; background:#1ab" COLSPAN=2>MENU</TH> </TR>
+            <TR> <TD>
+                <ul>
+                    <li ng-repeat="menu in MenuList.Menu" style="list-style: none; list-style-position:inside;">
+
+                        <a  href="" ng-click="getItems(MenuList.venueID, menu)" style="font-size: x-large; color: #5e5e5e; text-align: center;">{{menu}}</a>
+                    </li>
+                </ul></TD>
+                <TD id="div_ItemList" style="display:none;">
+                    <ul>
+                        <li ng-repeat="item in ItemsList.reviewText" style="list-style: none; list-style-position:inside;">
+                            {{item}}
+                        </li></ul></TD> </TR>
+
+        </TABLE>
+
+
+
+        </p>
+
+    </div>
+    <div id="div_ReviewList" style="display:none;"  >
+
+
+        <p ng-model="ReviewWithSentiment">
+
+        <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style="color: aliceblue; background:#1ab188" COLSPAN=2>Sentiment Analysis From Using Alchemy API </TH> </TR>
+            <TR> <TD>Most recent review</TD> <TD>{{ReviewWithSentiment.reviewText}}</TD> </TR>
+            <TR> <TD>Sentiment of the review</TD> <TD>{{ReviewWithSentiment.sentiment}}</TD> </TR>
+            <TR> <TD>Sentiment Score of the review</TD> <TD>{{ReviewWithSentiment.score}}</TD> </TR>
+            <TR> <TH style="color: aliceblue; background:#1ab188" COLSPAN=2 BGCOLOR="#445553">{{ReviewWithSentiment.reviewText}}</TH> </TR>
+        </TABLE>
+
+        </p>
+
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script src="appTest.js"></script>
+<script>
+    var myInput = document.getElementById('txt_searchFilter')
+    var config = {
+        'limit': 10,
+        'maxDescChars': 150,
+    };
+    var picker = KGSearchWidget('AIzaSyBerQiViteUbn18JQH_3541n_ymd4IA1Q4', myInput, config);
+</script>
+
+</body>
+</html>
