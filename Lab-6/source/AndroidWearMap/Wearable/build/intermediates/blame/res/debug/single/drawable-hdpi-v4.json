@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_full_cancel.png",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.2.0\\res\\drawable-hdpi-v4\\ic_full_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_full_sad.png",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.2.0\\res\\drawable-hdpi-v4\\ic_full_sad.png"
+    },
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\card_frame_pressed.9.png",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.2.0\\res\\drawable-hdpi-v4\\card_frame_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\card_frame.9.png",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.2.0\\res\\drawable-hdpi-v4\\card_frame.9.png"
+    }
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="25"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="677263126108529"
+    token="-2294439474673192414"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="642" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="327" />
+    <task
+        name="verifier"
+        duration="137" />
+
+    <artifact
+        location="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\outputs\apk\Wearable-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="677263126108529"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\outputs\apk\Wearable-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_light.xml",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\color\\circular_button.xml",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.2.0\\res\\color\\circular_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\res\\merged\\debug\\color\\common_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\color\\common_signin_btn_text_dark.xml"
+    }
+]

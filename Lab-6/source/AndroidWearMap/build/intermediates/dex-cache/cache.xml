@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6cb2ac3408e23d9edfb74364a9712b11bec10694">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_ee13121f96753b50ba703348f8324f2f9f303d19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_abf6a915f9a182c1e053853c01291c34b38b18d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.support-wearable-1.2.0_9506236daee58da76d1f9af30fdb53577031a210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_3e40fa3e4853f0a0b6643dc1b7b6c631334eac1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.1.0_acf6695a1d9b3bf19cdffddd994552b671abbc87\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="84d70f4a3eed2daf83bc0733f0dff460dfe39242">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_9e24a47c689c7cf8f46f1f475245d4533f8690a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.1.0_564c828a1c23063185560f524a37eeac9ce67d86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.0.0_3e5e8458eaf9fe574fb5827d08466214cbde7f11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_9996d1510220febf5870ce0bc3117659fc617536\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yata\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_0d83bafbdf18e2a026a38c85d5c7b7ec61ebe8c3\classes.dex" />
+    </item>
+
+</items>

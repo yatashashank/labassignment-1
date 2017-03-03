@@ -1,0 +1,7 @@
+#Thu Mar 02 22:21:03 CST 2017
+base.0=C\:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ee13121f96753b50ba703348f8324f2f9f303d19
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e24a47c689c7cf8f46f1f475245d4533f8690a9\\classes.dex
+base.1=C\:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_9e24a47c689c7cf8f46f1f475245d4533f8690a9
+file.0=C\:\\Users\\yata\\Desktop\\ase ass-6\\AndroidWearMap\\Wearable\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_ee13121f96753b50ba703348f8324f2f9f303d19\\classes.dex

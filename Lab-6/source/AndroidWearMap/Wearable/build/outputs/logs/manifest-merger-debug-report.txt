@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:18:1-52:12
+	package
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:19:5-41
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:18:11-69
+	android:versionCode
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+uses-feature#android.hardware.type.watch
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:22:19-61
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:25:22-65
+application
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:27:5-50:19
+MERGED from [com.google.android.support:wearable:1.2.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:28:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:30:9-41
+	android:allowBackup
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:28:9-35
+	android:icon
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:29:9-41
+	android:theme
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:31:9-59
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:34:9-35:77
+	android:value
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:35:20-75
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:34:20-65
+uses-library#com.google.android.wearable
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:38:9-93
+	android:required
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:38:66-90
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:38:23-65
+activity#com.example.androidwearmap.MainActivity
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:40:9-49:20
+	android:label
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:42:13-45
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:41:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:44:13-48:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:47:17-77
+	android:name
+		ADDED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:47:27-74
+uses-sdk
+INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.android.support:wearable:1.2.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.support\wearable\1.2.0\AndroidManifest.xml:4:5-6:41
+MERGED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:27:5-42
+MERGED from [com.google.android.gms:play-services-base:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\AndroidManifest.xml:23:9-25:56
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\AndroidManifest.xml:25:13-53
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\AndroidManifest.xml:24:13-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:22:22-78
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:23:5-25:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:24:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.1.0\AndroidManifest.xml:25:8-31
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\src\main\AndroidManifest.xml:18:1-52:12 reason: com.google.android.gms.maps requested WRITE_EXTERNAL_STORAGE
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.1.0] C:\Users\yata\Desktop\ase ass-6\AndroidWearMap\Wearable\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:22:13-58
