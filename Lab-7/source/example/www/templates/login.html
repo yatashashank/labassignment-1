@@ -1,0 +1,27 @@
+
+<ion-view title="Login" id="page2" style="background-color:#894485;">
+  <ion-content ng-controller="ExampleController">
+    <form name="myForm" novalidate>
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="email" name="username" ng-model="username" ng-minlength="5" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" name="password" ng-model="password" ng-minlength="6" required>
+        </label>
+      </div>
+      <div class="padding">
+        <p ng-show="myForm.username.$error.required">* Username is required</p>
+        <p ng-show="myForm.username.$invalid && !myForm.username.$pristine">* Username must be an email address</p>
+        <p ng-show="myForm.username.$error.minlength">* Username must be longer than 5 characters</p>
+        <p ng-show="myForm.password.$error.required">* Password is required</p>
+        <p ng-show="myForm.password.$error.minlength">* Password must be longer than 6 characters</p>
+      </div>
+      <a ui-sref="home" id="login-button1"  class="button button-block button-positive" ng-disabled="myForm.$invalid" ng-click="submit(username)">Log In</a>
+    </form>
+    <div style="margin-right:-20px;">
+      <a ui-sref="signup" id="login-button2" style="left:-10px;" class="button button-positive  button-full">Or Create an Account</a></div>
+  </ion-content>
+</ion-view>

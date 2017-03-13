@@ -1,0 +1,54 @@
+
+<ion-view title="Signup" id="page3" style="background-color:#894485;">
+
+  <ion-content >
+    <form name="Signupform" novalidate>
+      <div class="list">
+
+
+        <label class="item item-input">
+          <span class="input-label">Name</span>
+          <input type="text" name="fullname" ng-model="fullname" required>
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Email id</span>
+          <input type="email" name="email" ng-model="email" required>
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Phone Number</span>
+          <input type="number" name="phonenumber" ng-model="phonenumber" required>
+        </label>
+
+        <label class="item item-select">
+          <span class="input-label">Gender</span>
+          <select>
+            <option>Male</option>
+            <option>Female</option>
+          </select>
+        </label>
+
+        <label class="item item-input">
+          <span class="input-label">Username</span>
+          <input type="email" name="username" ng-model="username" ng-minlength="5" required>
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Password</span>
+          <input type="password" name="password" ng-model="password" ng-minlength="6" required>
+        </label>
+      </div>
+      <div class="padding">
+        <p ng-show="Signupform.fullname.$error.required">* Name is required</p>
+        <p ng-show="Signupform.email.$error.required">* Email id  is required</p>
+        <p ng-show="Signupform.phonenumber.$error.required">* phone number is required</p>
+        <p ng-show="Signupform.username.$error.required">* Username is required</p>
+        <p ng-show="Signupform.username.$invalid && !myForm.username.$pristine">* Username must be an email address</p>
+        <p ng-show="Signupform.username.$error.minlength">* Username must be longer than 5 characters</p>
+        <p ng-show="Signupform.password.$error.required">* Password is required</p>
+        <p ng-show="Signupform.password.$error.minlength">* Password must be longer than 6 characters</p>
+      </div>
+      <a ui-sref="login" id="login-button1"  class="button button-block button-positive" ng-disabled="Signupform.$invalid" >SignUp</a>
+    </form>
+  </ion-content>
+</ion-view>
